@@ -1,0 +1,45 @@
+*{margin: 0; padding: 0;} 
+body,html {
+	height: 100%;
+	width: 100%
+}
+body {
+	background-image: linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+a.btn {
+	border-radius: 30px;
+}
+img.logo {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: -5px;
+}
+.slogan .khoibanner {
+	color: white!important;
+	padding-top: 250px;
+}
+@media (max-width: 575px){
+
+.top nav.mauden {
+	background: rgba(0, 0, 0, 0.562);}
+	a.navbar-brand {
+		display: none;
+	}
+	body {
+		background-attachment: fixed;
+	}
+
+}
+@media (max-width: 805px) {
+	.navbar-toggleable-xs .navbar-brand {display: none;
+}
+body {
+		background-attachment: fixed;
+	}
+}
